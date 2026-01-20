@@ -1,18 +1,35 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Mateusz Urbanek
-=======================================================================================================================================
+# Urbi Labs // Mateusz Urbanek
 
-I'm a backend developer
--------------------------
+Building, breaking, and benchmarking systems. By day, I build AI-native apps; by night, I’m digging into the plumbing that makes distributed systems actually stay up. 
 
+**Urbi Labs** is my personal scratchpad for the stuff that doesn't make it into a Jira ticket: raw benchmarks, failed experiments, and "un-vibecoded" implementations.
 
-### Skills
+---
 
+### 🧪 What I'm poking at
+* **Distributed State:** Building and breaking load balancers, proxies, and consensus logic.
+* **Performance:** Moving from "it works" to "it's efficient"—optimizing Node.js event loops and Python execution.
+* **Real-time Systems:** Exploring high-concurrency event streams and low-latency data. This includes everything from betting bots and strategy analyzers to undetectable AI-based FPS aim assist integrated with hardware.
 
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a><a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg" width="36" height="36" alt="NextJs" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a><a href="https://svelte.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/svelte-colored.svg" width="36" height="36" alt="Svelte" /></a><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a><a href="https://docs.nestjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg" width="36" height="36" alt="NestJS" /></a><a href="https://graphql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/graphql-colored.svg" width="36" height="36" alt="GraphQL" /></a><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a><a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a><a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="36" height="36" alt="Firebase" /></a><a href="https://cloud.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/googlecloud-colored.svg" width="36" height="36" alt="Google Cloud" /></a><a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg" width="36" height="36" alt="Amazon Web Services" /></a><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" /></a>
-</p>
+### 🛠 The Stack
+* **Primary:** TypeScript (Node.js/Next.js), Python (AI/Automation)
+* **Mobile:** React Native
+* **Data:** Postgres/Mongo for the truth, Redis for the speed.
+* **Infra:** Docker/Kubernetes, Linux internals, and a lot of `curl` commands.
 
+---
 
-### Socials
+### 📂 Projects
 
-<p align="left"> <a href="https://www.github.com/matnabru" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/mateusz-urbanek-427559201" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a></p>
+* **[asset-tracker](https://github.com/urbilabs/asset-tracker) // Real-time Data Pipes** A tool to track assets across markets. It's less about the "portfolio" and more about the challenge of ingesting messy, high-frequency WebSockets and maintaining a clean, queryable state.
+
+* **[scaling-sandbox](https://github.com/urbilabs/scaling-sandbox) // Chaos Lab** A local playground using containerized nodes to simulate what happens to a system when the load balancer dies or the network gets flaky.
+
+* **[urbilabs-platform](https://github.com/urbilabs/urbilabs-platform)** A custom-built engine (Next.js) to host my deep-dives into system design, infra, and whatever I learned the hard way this week.
+
+---
+
+### 🔗 Connect
+[UrbiLabs.io](https://urbilabs.io) • [LinkedIn](https://www.linkedin.com/in/mateusz-urbanek-427559201)
+
+> *"I don't understand what I cannot build." — Richard Feynman*
