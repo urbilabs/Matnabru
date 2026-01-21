@@ -6,6 +6,11 @@ Building, breaking, and benchmarking systems. By day, I build AI-native apps; by
 
 ---
 
+### 💼 The Day Job
+* **Orange Polska** // Fullstack Engineer — Scaling internal platforms and AI integrations.
+* **Aexol** // Backend Developer — 3 years of deep-diving into API architecture and system logic.
+* **Deloitte** // Salesforce Intern — Where the first commit happened (2021).
+
 ### 🧪 What I'm poking at
 * **Distributed State:** Building and breaking load balancers, proxies, and consensus logic.
 * **Performance:** Moving from "it works" to "it's efficient"—optimizing Node.js event loops and Python execution.
