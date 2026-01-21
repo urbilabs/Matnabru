@@ -21,7 +21,7 @@ Building, breaking, and benchmarking systems. By day, I build AI-native apps; by
 
 ### 📂 Projects
 
-* **[asset-tracker](https://github.com/urbilabs/asset-tracker) // Real-time Data Pipes** A tool to track assets across markets. It's less about the "portfolio" and more about the challenge of ingesting messy, high-frequency WebSockets and maintaining a clean, queryable state.
+* **[asset-tracker](https://github.com/urbilabs/asset-tracker) // Real-time Data Pipes** A cross-market ingestion engine focused on the architectural challenge of normalizing high-frequency WebSockets (Stocks/Crypto) and asynchronous API state (Banking) into a unified query layer.
 
 * **[scaling-sandbox](https://github.com/urbilabs/scaling-sandbox) // Chaos Lab** A local playground using containerized nodes to simulate what happens to a system when the load balancer dies or the network gets flaky.
 
