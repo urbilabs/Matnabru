@@ -26,9 +26,9 @@ Building, breaking, and benchmarking systems. By day, I build AI-native apps; by
 
 ### 📂 Projects
 
-* **[asset-tracker](https://github.com/urbilabs/asset-tracker) // Real-time Data Pipes** A cross-market ingestion engine focused on the architectural challenge of normalizing high-frequency WebSockets (Stocks/Crypto) and asynchronous API state (Banking) into a unified query layer.
+* **[overlord-ecs] // Multithreaded Simulation Engine** Work in progress custom game engine written in **Rust** designed for massive 2D colony sims. Built on a server-client architecture to support long progression with PoE-style RNG loot systems. Leveraging **Data-Parallel ECS** to handle thousands of entities across all CPU cores.
 
-* **[scaling-sandbox](https://github.com/urbilabs/scaling-sandbox) // Chaos Lab** A local playground using containerized nodes to simulate what happens to a system when the load balancer dies or the network gets flaky.
+* **[asset-tracker](https://github.com/urbilabs/asset-tracker) // Real-time Data Pipes** A cross-market ingestion engine focused on the architectural challenge of normalizing high-frequency WebSockets (Stocks/Crypto) and asynchronous API state (Banking) into a unified query layer.
 
 * **[urbilabs-platform](https://github.com/urbilabs/urbilabs-platform)** A custom-built engine (Next.js) to host my deep-dives into system design, infra, and whatever I learned the hard way this week.
 
